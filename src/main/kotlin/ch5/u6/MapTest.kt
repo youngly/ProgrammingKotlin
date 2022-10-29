@@ -1,7 +1,6 @@
 package ch5.u6
 
-class MapTest {
-}
+class MapTest {}
 
 fun main(args: Array<String>) {
     val mapOf = mapOf("google" to "www.google.com")
@@ -11,7 +10,5 @@ fun main(args: Array<String>) {
         println(i.key + i.value)
     }
 
-    val any:Any = Throwable()
-
-
+    val any: Any = Throwable()
 }
